@@ -1,0 +1,55 @@
+:root {
+    /*Colors*/
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+
+* {
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+}
+
+#container {
+    width: 320px;
+    margin: auto auto;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+img {
+
+    margin: 1rem 1rem 2rem 1rem;
+    border-radius: 10px;
+}
+
+h2 {
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 0 1.5rem 1rem 1.5rem;
+    color: var(--darkBlue)
+}
+
+.QRparagraph {
+    font-family: "Outfit", "sans-serif";
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 2.2rem 2.2rem 2.2rem;
+    color: var(--grayishBlue)
+}
